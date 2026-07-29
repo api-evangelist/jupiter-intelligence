@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.jupiterintel.com/security
+probe: false
+url: https://www.jupiterintel.com/security
+certifications:
+- SOC 2 Type 2
+program:
+  vulnerability_disclosure: false
+  vulnerability_disclosure_note: >-
+    Jupiter states it cannot review unsolicited vulnerability reports; all
+    testing and reporting must be performed under a formal engagement or
+    contract. There is no public responsible-disclosure or bug-bounty program.
+evidence:
+- source: https://www.jupiterintel.com/security
+  keywords:
+  - soc 2 type 2
+  - security
+  - infrastructure security
+notes: >-
+  Security page describes data, application, and infrastructure security
+  practices and names SOC 2 Type 2 certification. No ISO 27001, dedicated
+  trust-center portal, or public disclosure program was found.

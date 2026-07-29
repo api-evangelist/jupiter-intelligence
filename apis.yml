@@ -1,7 +1,18 @@
 aid: jupiter-intelligence
 name: Jupiter Intelligence
-description: Jupiter Intelligence is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jupiter Intelligence is a climate risk analytics company founded in 2017 and
+  headquartered in San Mateo, California. Built by climate scientists, Jupiter
+  delivers decision-grade physical and extreme-weather risk intelligence to
+  banks, insurers, asset managers, corporates, and public-sector institutions.
+  Its flagship platform, ClimateScore Global, translates physical climate
+  exposure across multiple perils, scenarios, and time horizons out to 2100 into
+  finance-linked, audit-ready metrics that support underwriting, capital
+  planning, portfolio management, and regulatory disclosure. Products include
+  ClimateScore Global, RiskSignal, Adaptation Hub, Entity Modeling, MetricEngine,
+  Compliance Hub, and the MRM Accelerator. Jupiter is delivered as a SaaS
+  application, an enterprise API, and tailored analytics support. It is SOC 2
+  Type 2 certified and backed by investors including DCVC.
 url: https://raw.githubusercontent.com/api-evangelist/jupiter-intelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,70 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/63727ffa52be207cf8bb4aca/6998e43ae27a68771ca6b74c_Open%20Graph%20Jupiter%20Logo.png
 tags:
 - Company
-apis: []
+- Climate Risk
+- Physical Risk Analytics
+- Climate Data
+- Weather Risk
+- Financial Risk
+- ESG
+- Analytics
+apis:
+- name: Jupiter ClimateScore Global Enterprise API
+  description: >-
+    Enterprise API for Jupiter's ClimateScore Global platform, delivering
+    physical and extreme-weather climate risk metrics across perils, scenarios,
+    and time horizons. Access is gated behind a commercial licensing agreement;
+    the API is not publicly documented and requires authenticated, contracted
+    access.
+  humanURL: https://www.jupiterintel.com/products
+  baseURL: https://api.jupiterintel.com
+  tags:
+  - Climate Risk
+  - Analytics
+  properties: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/jupiter-intelligence-domain-security.yml
+- type: Website
+  url: https://www.jupiterintel.com/
+- type: Blog
+  url: https://www.jupiterintel.com/blog
+- type: Support
+  url: https://www.jupiterintel.com/contact
+- type: SignUp
+  url: https://www.jupiterintel.com/request-demo
+- type: TermsOfService
+  url: https://www.jupiterintel.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.jupiterintel.com/legal/privacy-policy
+- type: Compliance
+  url: https://www.jupiterintel.com/security
+- type: TrustCenter
+  url: https://www.jupiterintel.com/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
