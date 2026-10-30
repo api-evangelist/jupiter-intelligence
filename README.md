@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jupiter Intelligence is a company surfaced as a portfolio company of dcvc and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Jupiter Intelligence is a climate risk analytics company founded in 2017 and headquartered in San Mateo, California. Built by climate scientists, Jupiter delivers decision-grade physical and extreme-weather risk intelligence to banks, insurers, asset managers, corporates, and public-sector institutions. Its flagship platform, ClimateScore Global, translates physical climate exposure across multiple perils, scenarios, and time horizons out to 2100 into finance-linked, audit-ready metrics that support underwriting, capital planning, portfolio management, and regulatory disclosure. Products include ClimateScore Global, RiskSignal, Adaptation Hub, Entity Modeling, MetricEngine, Compliance Hub, and the MRM Accelerator. Jupiter is delivered as a SaaS application, an enterprise API, and tailored analytics support. It is SOC 2 Type 2 certified and backed by investors including DCVC.
 
-Backed by: dcvc
+**Areas:** Company · Climate Risk · Physical Risk Analytics · Climate Data · Weather Risk · Financial Risk · ESG · Analytics · Climate
+
+## Jupiter Intelligence on APIs.io
+
+Everything profiled for Jupiter Intelligence is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jupiter-intelligence/](https://apis.io/providers/jupiter-intelligence/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Jupiter ClimateScore Global Enterprise API](https://apis.io/apis/jupiter-intelligence/jupiter-climatescore-global-enterprise-api/) — Enterprise API for Jupiter's ClimateScore Global platform, delivering physical and extreme-weather climate risk metrics across perils, scenarios, and time…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jupiter Intelligence Domain Security](https://apis.io/security/jupiter-intelligence/jupiter-intelligence-domain-security/)
+- [Jupiter Intelligence Trust Center](https://apis.io/security/jupiter-intelligence/jupiter-intelligence-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.jupiterintel.com/)
+- [Sign up](https://www.jupiterintel.com/request-demo)
+- [Support](https://www.jupiterintel.com/contact)
+- [Blog](https://www.jupiterintel.com/blog)
+- [Compliance](https://www.jupiterintel.com/security)
+- [Trust centre](https://www.jupiterintel.com/security)
+- [Terms of service](https://www.jupiterintel.com/terms-and-conditions)
+- [Privacy policy](https://www.jupiterintel.com/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 18.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 50.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jupiter-intelligence/](https://apis.io/providers/jupiter-intelligence/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jupiter Intelligence: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jupiter-intelligence/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
